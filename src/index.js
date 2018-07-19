@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 
 import "./styles.css";
 
+import EditableButtonGroup from "./EditableButtonGroup";
 function App() {
   return (
     <div className="App">
