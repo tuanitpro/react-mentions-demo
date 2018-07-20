@@ -1,8 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+import "./styles.css";
+
+import EditableButtonGroup from "./EditableButtonGroup";
+function App() {
+  return (
+    <div className="assign">
+      <EditableButtonGroup />
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
