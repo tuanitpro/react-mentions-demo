@@ -3,17 +3,18 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-.mentions {
+.mentions{  
   margin: 50px;
 }
-.edit-button-group {
+.edit-button-group{
   margin: 50px;
   height: 100px;
   border: solid 1px #ccc;
 }
-.edit-button-group .button-plus {
+.edit-button-group .button-plus{
   float: right;
 }
+
 
 .react-autosuggest__container {
   position: relative;
@@ -75,10 +76,10 @@ body {
   background-color: #ddd;
 }
 
-.aClassName {
+.aClassName{
   font-size: 12px;
   background: #3399cc;
 }
-.spanClassName {
+.spanClassName{
   cursor: pointer;
 }
